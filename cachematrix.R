@@ -2,9 +2,9 @@
 ## Creates what is initially an empty cache to hold a matrix's inverse so 
 ## that it does not need to be recalculated later if operation already performed
 
-## Makes a cache to store a matrix x and its inverse - but doesn't go anything until a 
-## a matrix x is supplied
 
+## Makes a cache to store a matrix x and its inverse - but doesn't do anything until a 
+## a matrix x is supplied
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y){
